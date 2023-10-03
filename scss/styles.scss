@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import "animaciones.scss";
+
+@font-face {
+    font-family:"Donkin" ;
+    src: url(../fonts/Donkin.otf);
+}
+@font-face {
+    font-family: "Freedom";
+    src: url(../fonts/Freedom.ttf);
+}
+@font-face {
+    font-family:"SuperBread" ;
+    src: url(../fonts/SuperBread.ttf);
+}
+@font-face {
+    font-family: "soup";
+    src: url(../fonts/soup.ttf)
+}
+.banner {
+    margin: 0 auto;
+    width: 450px;
+    height: 220px;
+    display: block;
+}
+.logomenu{
+    width: 50px;
+    height: 40px; 
+}
+
+
+.barra {
+    list-style: none;
+    font-family: "soup";
+    font-size: 19px ;
+    background-color: rgb(179, 184, 179);
+    padding:10px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    text-decoration: none;
+    gap: 100px;
+    margin: auto;
+    
+ }
+
+.titulos {
+    
+    color: brown;
+    background-color: white;
+    font-family: "Donkin";
+    font-size: 30px;
+    
+} 
+.titulos1 {
+    color: brown;
+    background-color: white;
+    font-family: "soup";
+    font-size: 25px;  
+    text-align: center;
+} 
+.titulos2 {
+    color: brown;
+    background-color: white;
+    font-family: "soup";
+    font-size: 22px;  
+    text-align: center; 
+    
+}
+.parrafos1 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.logo {
+    width: 40px;
+}
+.logoredes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: fixed;
+    bottom: 80%;
+    right: 50px;
+
+}
+
+.vertical {
+    height: 400px;
+    width: 280px;
+    margin-left: auto;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.instagram-media {
+    margin-left: 0px;
+    justify-content: center;
+    
+    }
+    
+
+.zona{
+    font-family: "Freedom";
+    font-size: 12px;
+    color: brown;
+
+}
+.imgpadre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.img1 {
+    height:500px;
+    width: 380px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.padrevertical{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width: 480px) {
+.barra {
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column ;  
+    text-align: center; 
+    background-color: rgb(136, 36, 36);
+    gap: 30px;
+}
+   
+.banner {
+    margin: 0 auto;
+    width: 350px;
+    height: 200px;
+    display: block
+}
+
+.parrafos {
+    justify-content: right;
+    padding: auto;
+   
+}
+.padrevertical{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column 
+}
+main {
+    background-color: rgb(117, 116, 116);
+    color: rgb(230, 233, 235)
+}
+.logo {
+    width: 40px;
+}
+.logoredes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: fixed;
+    bottom: 40%;
+    right: 50px; 
+}
+.img1 {
+    height:250px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.carousel-item img {
+    height: 250px;
+}
+
+}
+
+@media (min-width: 480px) and (max-width: 820px) {
+    main {
+        background-color: rgb(90, 31, 31);
+        color: rgb(230, 233, 235)
+    }
+.barra {
+    background-color: black;
+    gap: 30px;
+    
+}
+.titulos1 {
+    color: black;
+}
+.titulos2 {
+    color: black;
+}
+.barra{
+
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column ;  
+    text-align: center; 
+    background-color: rgb(7, 7, 7);
+
+.logo {
+    width: 40px;
+}
+.logoredes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: fixed;
+    bottom: 40%;
+    right: 50px;
+}
+}
+#carouselExample {
+    width: 30%;
+}
+
+.carousel-item img {
+    height: 400px;
+}
+
+}
+
+
