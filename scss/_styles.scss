@@ -54,6 +54,7 @@
     background-color: white;
     font-family: "Donkin";
     font-size: 30px;
+    text-align: left;
     
 } 
 .titulos1 {
@@ -163,8 +164,9 @@
 }
 .padrevertical{
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     flex-direction: column 
+    
 }
 main {
     background-color: rgb(117, 116, 116);
